@@ -33,6 +33,11 @@ body {
   background-repeat: no-repeat;
   position: relative;
   transition: all 1000ms ease-in-out;
+  filter: grayscale(1);
+}
+
+.color {
+  filter: grayscale(0);
 }
 
 .slide h3 {
